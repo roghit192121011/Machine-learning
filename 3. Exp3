@@ -93,3 +93,5 @@ root = ID3(data, features)
 print("Decision Tree is:")
 printTree(root)
 print ("------------------")
+new = {"outlook":"sunny", "temperature":"hot", "humidity":"normal", "wind":"strong"}
+classify (root, new)
